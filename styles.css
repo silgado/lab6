@@ -1,0 +1,177 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin: 0;
+}
+
+header h1 {
+    background-color: brown;
+    text-transform: capitalize;
+    letter-spacing: 10px;
+    margin: 0;
+    padding: 10px;
+}
+
+header h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    color: yellowgreen;
+}
+
+
+/* Navegacion */
+
+nav {
+    background-color: #004b8d;
+    margin: 0 15px;
+    text-align: center;
+    font-weight: normal;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffd700;
+    text-decoration: underline;
+}
+
+
+/*Seccion principal */
+
+.contenedor {
+    background-color: white;
+    width: 680px;
+    margin: 30px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Titulos */
+
+h3 {
+    color: #d80000;
+    /*linea debajo */
+    border-bottom: 2px solid #004b8d;
+    padding-bottom: 5px;
+    font-size: 1.3em;
+}
+
+p {
+    text-align: justify;
+    margin-bottom: 5px;
+    font-size: 1em;
+}
+
+
+/* Imagenes */
+
+img {
+    display: block;
+    width: 40px;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 0 10 rgba(0, 0, 0, 0.1);
+}
+
+.cabra {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10 rgba(0, 0, 0, 0.1);
+}
+
+
+/*Listas*/
+
+ul,
+ol {
+    margin-left: 40px;
+}
+
+li {
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+
+/*enlaces*/
+
+a {
+    color: #004b8d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/*el sombreado*/
+
+a:hover {
+    color: #d80000;
+    text-decoration: underline;
+}
+
+
+/*Tabla*/
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #ffe;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 0.90em;
+}
+
+th {
+    background-color: #004b8d;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+/*Formulario*/
+
+.formulario {
+    text-align: left;
+    color: #d80000;
+    border-bottom: 2px;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+/*encabezado de abajo */
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+}
